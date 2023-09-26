@@ -14,7 +14,7 @@
 #define LOWER 1
 #define RAISE 2
 #define ADJUST 3
-#define NUM 4
+//#define NUM 4
 
 / {
 
@@ -40,7 +40,7 @@
             bindings = <
 &kp F1    &kp F2 &kp F3      &kp F4    &kp F5    &kp F6                      &kp F7 &kp F8    &kp F9    &kp F10   &kp F11   &F12
 &kp TAB   &kp FSLH  &kp W       &kp F     &kp P     &kp B                       &kp J  &kp L     &kp U     &kp Y    &kp SEMI   &kp BSLH
-&mo NUM  &kp A  &kp R       &kp S     &kp T     &kp G                       &kp M  &kp N     &kp E     &kp I    &kp O &kp SQT
+&kp none  &kp A  &kp R       &kp S     &kp T     &kp G                       &kp M  &kp N     &kp E     &kp I    &kp O &kp SQT
 &kp DEL  &kp Z  &kp X       &kp C     &kp V     &kp B  &kp ENTER  &kp LSHFT     &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp PRINT
                  &kp C_MUTE  &kp LCTRL &kp LALT  &mo LOWER  &kp BKSPC    &kp SPACE &mo RAISE  &kp ESC &kp RGUI  &kp none
             >;
